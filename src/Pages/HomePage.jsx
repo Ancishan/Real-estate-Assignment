@@ -1,21 +1,8 @@
-import Navbar from "../Shared/Navbar";
-
-
-
-
+import BannerSec from "./BannerSec";
 const HomePage = () => {
-
-
-    
-
     return (
         <div>
-            
-           <Navbar></Navbar>
-
-           this is home
-            
-
+           <BannerSec></BannerSec>
         </div>
     );
 };
