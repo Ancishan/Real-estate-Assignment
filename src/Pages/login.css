@@ -1,0 +1,15 @@
+.input-icon {
+    position: relative;
+}
+
+.input-icon input {
+    padding-right: 30px; /* Adjust as needed to accommodate the icon */
+}
+
+.input-icon .icon {
+    position: absolute;
+    top: 50%;
+    right: 10px; /* Adjust as needed to position the icon */
+    transform: translateY(-50%);
+    cursor: pointer;
+}
