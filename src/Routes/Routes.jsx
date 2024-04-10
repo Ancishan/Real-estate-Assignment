@@ -3,6 +3,8 @@ import Root from "../Layouts/Root";
 import HomePage from "../Pages/HomePage";
 import Login from "../Pages/Login";
 import Registration from "../Pages/Registration";
+import CowssDetails from "../Pages/CowssDetails";
+import PrivateRoute from "./PrivateRoute";
 
 // import PrivateRoute from "./PrivateRoute";
 
@@ -17,10 +19,10 @@ const routes = createBrowserRouter([
                 loader:() =>fetch('/cow.json')
                 
             },
-            // {
-            //     path:'/news/:id',
-            //     element:<PrivateRoute><NewsDetails></NewsDetails></PrivateRoute>
-            // },
+            {
+                path:'/cow/:id',
+                element:<PrivateRoute><CowssDetails></CowssDetails></PrivateRoute>
+            },
             
             {
                 path:'/login',

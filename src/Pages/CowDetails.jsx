@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 
 const CowDetails = ({acow}) => {
-      const { estate_title,image,segment_name,id ,description, price} = acow;
+      const { estate_title,image,segment_name,id ,description} = acow;
 
     return (
         <div>
