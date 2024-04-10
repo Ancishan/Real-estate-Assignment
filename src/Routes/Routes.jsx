@@ -14,6 +14,7 @@ const routes = createBrowserRouter([
             {
                 path: '/',
                 element:<HomePage></HomePage>,
+                loader:() =>fetch('/cow.json')
                 
             },
             // {
