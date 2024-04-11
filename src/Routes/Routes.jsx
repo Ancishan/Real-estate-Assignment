@@ -6,7 +6,7 @@ import Registration from "../Pages/Registration";
 import CowssDetails from "../Pages/CowssDetails";
 import PrivateRoute from "./PrivateRoute";
 
-// import PrivateRoute from "./PrivateRoute";
+
 
 const routes = createBrowserRouter([
     {
