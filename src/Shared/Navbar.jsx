@@ -1,7 +1,8 @@
 import { Link, NavLink } from "react-router-dom";
 import { useContext } from "react";
 import { AuthContext } from "../Routes/AuthProvider";
-import userr from '../assets/user.png'; // Default user image
+import userr from '../assets/user.png'; 
+import navimg from '../assets/cow2.png'
 
 const Navbar = () => {
     const { user, logOut } = useContext(AuthContext);
@@ -37,7 +38,10 @@ const Navbar = () => {
                         {navLinks}
                     </ul>
                 </div>
-                <h2>pranti agro</h2>
+               <div>
+                <img className="w-20" src={navimg} alt="" />
+               <h2>pranti agro</h2>
+               </div>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
