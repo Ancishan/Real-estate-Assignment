@@ -47,66 +47,66 @@ const Registration = () => {
                 <div className="w-[550px] mx-auto bg-white mt-4 mb-6 rounded-lg">
                     <h2 className="text-3xl font-bold text-center pt-4 ">Register your account</h2>
                     <form onSubmit={handleRegister} className="card-body">
-                    
-<div className="form-control">
-    <label className="label">
-        <span className="label-text">Name</span>
-    </label>
-    <input type="text" placeholder="Name" name="name" className="input input-bordered" required />
-</div>
-<div className="form-control">
-    <label className="label">
-        <span className="label-text">Photo Url</span>
-    </label>
-    <input type="text" placeholder="photo URL" name="photoURL" className="input input-bordered" required />
-</div>
-<div className="form-control">
-    <label className="label">
-        <span className="label-text">Email</span>
-    </label>
-    <input type="email" placeholder="email" name="email" className="input input-bordered" required />
-</div>
-<div className="form-control">
-    <label className="label">
-        <span className="label-text">Password</span>
-    </label>
-   <div className="relative w-full">
-   <input
-     type={ showPass ? "text" : "password"}
-     placeholder="password"
-    name="password" 
-    className="input input-bordered w-full"
-    required />
-    <span className="absolute top-3 right-1 pr-1" onClick={() =>setShowPass(!showPass)}>
-        {
-            showPass ? <FaEyeSlash></FaEyeSlash> : <FaEye></FaEye>
-        }
-        </span>
-   </div>
-</div>
-<div className="form-control">
-    <label className="label">
-        <span className="label-text">Confirm Password</span>
-    </label>
-    <div className="relative w-full">
-   <input
-     type={ showPass ? "text" : "password"}
-     placeholder="confirm password"
-    name="confirmPassword" 
-    className="input input-bordered w-full"
-    required />
-    <span className="absolute top-3 right-1 pr-1" onClick={() =>setShowPass(!showPass)}>
-        {
-            showPass ? <FaEyeSlash></FaEyeSlash> : <FaEye></FaEye>
-        }
-        </span>
-   </div>
 
-</div>
-<div className="form-control mt-3">
-    <button type="submit" className="btn btn-primary">Registration</button>
-</div>
-<p>Already Have An Account ? <Link to="/login" className="text-blue-500">Login </Link> </p>
+                        <div className="form-control">
+                            <label className="label">
+                                <span className="label-text">Name</span>
+                            </label>
+                            <input type="text" placeholder="Name" name="name" className="input input-bordered" required />
+                        </div>
+                        <div className="form-control">
+                            <label className="label">
+                                <span className="label-text">Photo Url</span>
+                            </label>
+                            <input type="text" placeholder="photo URL" name="photoURL" className="input input-bordered" required />
+                        </div>
+                        <div className="form-control">
+                            <label className="label">
+                                <span className="label-text">Email</span>
+                            </label>
+                            <input type="email" placeholder="email" name="email" className="input input-bordered" required />
+                        </div>
+                        <div className="form-control">
+                            <label className="label">
+                                <span className="label-text">Password</span>
+                            </label>
+                            <div className="relative w-full">
+                                <input
+                                    type={showPass ? "text" : "password"}
+                                    placeholder="password"
+                                    name="password"
+                                    className="input input-bordered w-full"
+                                    required />
+                                <span className="absolute top-3 right-1 pr-1" onClick={() => setShowPass(!showPass)}>
+                                    {
+                                        showPass ? <FaEyeSlash></FaEyeSlash> : <FaEye></FaEye>
+                                    }
+                                </span>
+                            </div>
+                        </div>
+                        <div className="form-control">
+                            <label className="label">
+                                <span className="label-text">Confirm Password</span>
+                            </label>
+                            <div className="relative w-full">
+                                <input
+                                    type={showPass ? "text" : "password"}
+                                    placeholder="confirm password"
+                                    name="confirmPassword"
+                                    className="input input-bordered w-full"
+                                    required />
+                                <span className="absolute top-3 right-1 pr-1" onClick={() => setShowPass(!showPass)}>
+                                    {
+                                        showPass ? <FaEyeSlash></FaEyeSlash> : <FaEye></FaEye>
+                                    }
+                                </span>
+                            </div>
+
+                        </div>
+                        <div className="form-control mt-3">
+                            <button type="submit" className="btn btn-primary">Registration</button>
+                        </div>
+                        <p>Already Have An Account ? <Link to="/login" className="text-blue-500">Login </Link> </p>
 
 
                     </form>

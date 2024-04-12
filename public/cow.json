@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "estate_title": "Farm A",
+    "estate_title": "Farm A Holstein",
     "segment_name": "Holstein",
     "description": "Holstein cows are the most productive dairy animals. They are known for their large milk production and are the most common breed of dairy cow in the world. Holsteins are easily recognizable by their distinctive black and white markings. These cows are bred for their ability to produce high quantities of milk, making them an excellent choice for dairy farmers.",
     "price": "$2000",
@@ -9,7 +9,7 @@
   },
   {
     "id": 2,
-    "estate_title": "Farm B",
+    "estate_title": "Farm A Angus",
     "segment_name": "Angus",
     "description": "Angus cattle are a popular breed of beef cattle known for their excellent meat quality and marbling. They are commonly raised for beef production due to their ability to thrive in various climates and their efficient feed conversion. Angus cattle are typically black in color, although red Angus also exist. These cattle are prized by ranchers and consumers alike for their flavorful and tender meat.",
     "price": "$1800",
@@ -17,7 +17,7 @@
   },
   {
     "id": 3,
-    "estate_title": "Farm C",
+    "estate_title": "Farm A Jersey",
     "segment_name": "Jersey",
     "description": "Jersey cows are a small breed of dairy cattle known for their high butterfat content in their milk. They are light brown in color and have a gentle disposition. Jersey cows are well-suited for small dairy farms due to their manageable size and efficient milk production. Despite their small stature, Jersey cows can produce large volumes of rich and creamy milk, making them highly valued by dairy farmers.",
     "price": "$2200",
@@ -25,7 +25,7 @@
   },
   {
     "id": 4,
-    "estate_title": "Farm D",
+    "estate_title": "Farm A Hereford",
     "segment_name": "Hereford",
     "description": "Hereford cattle are a versatile breed known for their dual-purpose capabilities. They are commonly raised for both meat and milk production. Herefords are characterized by their distinctive red and white coloration and white face. These cattle are well-adapted to various climates and are known for their docile temperament. Hereford beef is prized for its excellent flavor and tenderness, making it a favorite among beef enthusiasts.",
     "price": "$1900",
@@ -33,7 +33,7 @@
   },
   {
     "id": 5,
-    "estate_title": "Farm E",
+    "estate_title": "Farm Simmental",
     "segment_name": "Simmental",
     "description": "Simmental cattle are a large and robust breed known for their exceptional growth rate and meat quality. They are originally from Switzerland and are known for their distinctive red and white or black and white coloration. Simmentals are commonly raised for beef production due to their efficient feed conversion and high yield of lean meat. They are also valued for their maternal traits, making them popular among commercial cattle producers.",
     "price": "$2100",

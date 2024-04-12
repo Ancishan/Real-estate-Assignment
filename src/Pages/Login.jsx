@@ -62,7 +62,7 @@ const Login = () => {
             </div>
             <p>Dont’t Have An Account ? <Link to="/register" className="text-green-500">Registration </Link> </p>
           </form>
-         <p>sign in with <Link onClick={handleGoogleSignIn} className="text-green-500"><FaGooglePlusG /></Link></p>
+         <p className="text-2xl inline-flex items-center" >sign in with <Link onClick={handleGoogleSignIn} className="text-green-500 text-3xl items-center pl-3 "><FaGooglePlusG /></Link></p>
            </div>
             </div>
         

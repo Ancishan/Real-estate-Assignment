@@ -13,13 +13,20 @@ const CowssDetails = () => {
                 setData(result[0]);
             })
             
-    }, []); // Add id to the dependency array to fetch data whenever it changes
+    }, []); 
 
     return (
         <div>
-            <h2>{id}</h2>
-            <p>{data?.description}</p>
+        <div className="card mt-4 bg-base-100 shadow-xl " data-aos="zoom-out" data-aos-duration="3000" data-aos-delay="500">
+            <h2 className="card-title mx-auto py-10 text-3xl text-green-400 font-bold">{data ?.estate_title}</h2>
+            <img className="h-[550px] rounded-lg" src={ data?.image} alt="Shoes" />
+            <div className="card-body">
+                <h2 className="text-3xl font-bold">{data?.segment_name}</h2>
+                <p className="text-xl">{data?.description}</p>
+                <p className="text-3xl font-bold text-green-400 pt-3" data-aos="fade-right" data-aos-duration="3000" data-aos-delay="500" >Price <span>{data?.price}</span></p>
+            </div>
         </div>
+    </div>
     );
 };
 

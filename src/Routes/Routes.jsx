@@ -6,6 +6,7 @@ import Registration from "../Pages/Registration";
 import CowssDetails from "../Pages/CowssDetails";
 import PrivateRoute from "./PrivateRoute";
 import AboutUs from "../Pages/AboutUs";
+import ContactUS from "../Pages/ContactUS";
 
 
 
@@ -36,6 +37,10 @@ const routes = createBrowserRouter([
             {
                 path:'/about',
                 element:<AboutUs></AboutUs>
+            },
+            {
+                path:'/contact',
+                element:<ContactUS></ContactUS>
             }
         ]
     }

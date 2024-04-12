@@ -2,7 +2,7 @@ import { Link, NavLink } from "react-router-dom";
 import { useContext } from "react";
 import { AuthContext } from "../Routes/AuthProvider";
 import userr from '../assets/user.png'; 
-import navimg from '../assets/cow2.png'
+import navimg from '../assets/cow2.png';
 
 const Navbar = () => {
     const { user, logOut } = useContext(AuthContext);
@@ -21,14 +21,14 @@ const Navbar = () => {
         <>
             <li><NavLink to="/">Home</NavLink></li>
             <li><NavLink to="/about">About Us</NavLink></li>
-            <li><NavLink to="/career">Contact Us</NavLink></li>
+            <li><NavLink to="/contact">Contact Us</NavLink></li>
             <li><NavLink to="/register">SignUp</NavLink></li>
             <li><NavLink to="/login">SignIn</NavLink></li>
         </>
     );
 
     return (
-        <div className="navbar drop-shadow-xl text-green-500 font-bold mt-3">
+        <div className="navbar drop-shadow-xl text-green-500 font-bold mt-3" data-aos="fade-left" data-aos-duration="3000" data-aos-delay="500">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
