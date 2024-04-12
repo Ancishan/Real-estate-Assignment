@@ -24,15 +24,11 @@ const BannerSec = () => {
     }, [triggerAnimation]);
 
     return (
-        <div 
-            ref={ref}
-            className="carousel h-[70vh] mt-4 mx-auto ml-3 mr-3 font-poppins relative"
-        >
-
+        <div ref={ref} className="carousel  pt-30  h-[70vh] mt-4 mx-auto ml-3 mr-3 font-poppins md:relative">
             <div id="slide1" className={`carousel-item relative w-full ${triggerAnimation ? 'aos-animate' : ''}`} data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="200">
                 <img src={img1} className="w-full h-full object-cover object-center" alt="Slide 1" />
                 <div className='absolute top-1/3 left-1/3 transform -translate-x-1/2 -translate-y-1/2' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
-                    <h2 className='font-bold text-6xl text-green-500 ' data-aos="fade-right" data-aos-duration="3000" data-aos-delay="500" >Welcome <br /> To  <br /> Pranti Agro Farm</h2>
+                    <h2 className='text-3xl font-bold md:font-bold md:text-6xl text-green-500 ' data-aos="fade-right" data-aos-duration="3000" data-aos-delay="500" >Welcome <br /> To  <br /> Pranti Agro Farm</h2>
                 </div>
                 <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide4" className="btn btn-circle">❮</a>
