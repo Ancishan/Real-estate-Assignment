@@ -7,6 +7,7 @@ import CowssDetails from "../Pages/CowssDetails";
 import PrivateRoute from "./PrivateRoute";
 import AboutUs from "../Pages/AboutUs";
 import ContactUS from "../Pages/ContactUS";
+import GallerySec from "../Pages/GallerySec";
 
 
 
@@ -36,11 +37,15 @@ const routes = createBrowserRouter([
             },
             {
                 path:'/about',
-                element:<AboutUs></AboutUs>
+                element:<PrivateRoute><AboutUs></AboutUs></PrivateRoute>
             },
             {
                 path:'/contact',
-                element:<ContactUS></ContactUS>
+                element:<PrivateRoute><ContactUS></ContactUS></PrivateRoute>
+            },
+            {
+                path:'/gallery',
+                element:<PrivateRoute><GallerySec></GallerySec></PrivateRoute>
             }
         ]
     }

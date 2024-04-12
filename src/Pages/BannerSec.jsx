@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import img1 from '../assets/7.jpg';
-import img2 from '../assets/cow.jpg';
-import img3 from '../assets/3.jpg';
-import img4 from '../assets/p.jpg';
+import img1 from '../assets/cow90.jpg';
+import img2 from '../assets/cow91.jpg';
+import img3 from '../assets/cow93.jpg';
+import img4 from '../assets/cow94.jpg';
 import { useInView } from 'react-intersection-observer';
 
 const BannerSec = () => {
