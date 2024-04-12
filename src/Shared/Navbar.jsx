@@ -28,13 +28,13 @@ const Navbar = () => {
     );
 
     return (
-        <div className="navbar drop-shadow-xl text-green-500 font-bold mt-3 relative z-50" data-aos="fade-left" data-aos-duration="3000" data-aos-delay="500">
+        <div className="navbar drop-shadow-xl text-green-500 font-bold mt-3" data-aos="fade-left" data-aos-duration="3000" data-aos-delay="500">
             <div className="navbar-start">
-                <div className="dropdown ">
+                <div className="dropdown z-[50]">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                     </div>
-                    <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 p-2 shadow bg-base-100 absolute rounded-box w-40">
+                    <ul tabIndex={0} className="menu menu-sm dropdown-content mt-2 z-[50] p-2 shadow bg-base-100 rounded-box w-52">
                         {navLinks}
                     </ul>
                 </div>
@@ -62,7 +62,7 @@ const Navbar = () => {
                 ) : (
                     <div className="pl-5 pt-2 pr-5 md:flex items-center">
                         <div className="pl-3">
-                            <img className="w-12 h-12 bg-gray-200 rounded-full" src={userr} alt="Default User Profile" />
+                            <img className="w-12 h-12 bg-gray-200 text-green-500 rounded-full" src={userr} alt="Default User Profile" />
                         </div>
                         <h2 className="text-[10px] pl-3 md:text-lg ml-2">Profile</h2>
                     </div>

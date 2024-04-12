@@ -17,10 +17,11 @@ const HomePage = () => {
     const cows = useLoaderData();
     return (
         <div className="ml-3 mr-3">
-            <div data-aos="fade-left">
-
-            </div>
+            
             <BannerSec></BannerSec>
+            <div data-aos="fade-left"  data-aos-duration="3000" data-aos-delay="200">
+            <h2 className='text-5xl mt-8 mb-3 text-green-500 font-bold text-center'> Our Collection</h2>
+            </div>
             <div className=" md:grid grid-cols-2 gap-10 ">
                 {
                     cows.map(acow => <CowDetails key={acow.id} acow={acow}></CowDetails>)
