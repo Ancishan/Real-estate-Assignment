@@ -39,7 +39,7 @@ const Navbar = () => {
                 </ul>
             </div>
                <div className="pl-4">
-                <img className="w-10 md:w-20" src={navimg} alt="" />
+                <img className="w-10 md:w-15 rounded-full" src={navimg} alt="" />
                <h2>pranti agro</h2>
                </div>
             </div>
