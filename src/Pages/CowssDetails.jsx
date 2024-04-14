@@ -24,8 +24,8 @@ const CowssDetails = () => {
                 <h2 className="text-3xl font-bold">{data?.segment_name}</h2>
                 <p className="text-xl">{data?.description}</p>
                <div className="flex gap-2">
-               <p className="text-3xl font-bold text-green-400 pt-3" data-aos="fade-right" data-aos-duration="3000" data-aos-delay="500" >Price <span>{data?.price}</span></p>
-               <p className="flex text-2xl font-bold text-green-400 items-center gap-2">FOR Order <a href="https://wa.me/qr/QU676AEHMUHQE1"><SiWhatsapp /></a></p>
+               <p className="text-xl md:text-3xl font-bold text-green-400 pt-3" data-aos="fade-right" data-aos-duration="3000" data-aos-delay="500" >Price <span>{data?.price}</span></p>
+               <p className="flex text-xl md:text-2xl font-bold text-green-400 items-center pt-3 gap-2">FOR Order <a href="https://wa.me/qr/QU676AEHMUHQE1"><SiWhatsapp /></a></p>
                </div>
             </div>
         </div>
