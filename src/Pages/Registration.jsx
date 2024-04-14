@@ -44,7 +44,7 @@ const Registration = () => {
         <div>
             <ToastContainer />
             <div className="bg-slate-200">
-                <div className="w-[550px] mx-auto bg-white mt-4 mb-6 rounded-lg">
+                <div className=" w-full md:w-[550px] mx-auto bg-white mt-4 mb-6 rounded-lg">
                     <h2 className="text-3xl font-bold text-center pt-4 ">Register your account</h2>
                     <form onSubmit={handleRegister} className="card-body">
 
