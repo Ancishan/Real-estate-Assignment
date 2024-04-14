@@ -38,8 +38,8 @@ const Navbar = () => {
                     {navLinks}
                 </ul>
             </div>
-               <div>
-                <img className="w-20" src={navimg} alt="" />
+               <div className="pl-4">
+                <img className="w-10 md:w-20" src={navimg} alt="" />
                <h2>pranti agro</h2>
                </div>
             </div>
