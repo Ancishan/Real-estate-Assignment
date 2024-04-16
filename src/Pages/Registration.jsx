@@ -7,8 +7,8 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const Registration = () => {
     const [showPass, setShowPass] = useState(false);
-    const { createUser } = useContext(AuthContext);
-
+    const { createUser, updateUserProfile  } = useContext(AuthContext);
+     
     const handleRegister = async (e) => {
         e.preventDefault();
         const form = new FormData(e.currentTarget);
@@ -17,6 +17,7 @@ const Registration = () => {
         const email = form.get('email');
         const password = form.get('password');
         const confirmPassword = form.get('confirmPassword');
+        
 
         if (password !== confirmPassword) {
             toast.error("Passwords didn't match");
@@ -33,6 +34,9 @@ const Registration = () => {
 
         try {
             await createUser(email, password, photo, name);
+            updateUserProfile(name,photo) .then(() =>{
+                (form)
+            })
             toast.success('Registration successful');
         } catch (error) {
             console.error("Error registering user:", error);
@@ -117,5 +121,3 @@ const Registration = () => {
 };
 
 export default Registration;
-
-

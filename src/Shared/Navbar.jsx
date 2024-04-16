@@ -24,6 +24,7 @@ const Navbar = () => {
             <li><NavLink to="/contact">Contact Us</NavLink></li>
             <li><NavLink to="/register">SignUp</NavLink></li>
             <li><NavLink to="/login">SignIn</NavLink></li>
+            <li><NavLink to="/profile">UpdateProfile</NavLink></li>
         </>
     );
 
@@ -43,7 +44,7 @@ const Navbar = () => {
                <h2>pranti agro</h2>
                </div>
             </div>
-            <div className="navbar-center hidden lg:flex">
+            <div className="navbar-center hidden lg:flex pr-96">
                 <ul className="menu absolute menu-horizontal px-1">
                     {navLinks}
                 </ul>
@@ -54,7 +55,7 @@ const Navbar = () => {
                         <button onClick={handleLogOut} className="btn">Sign Out</button>
                         <div className="pl-5 pr-5 md:flex items-center">
                             <div className="pl-3">
-                                <img className="w-6 h-6 rounded-full md:w-12 md:h-12 bg-gray-200 md:rounded-full" src={user.photoURL || userr} alt="User Profile" />
+                                <img className="w-6 h-6 rounded-full md:w-12 md:h-12 bg-gray-200 md:rounded-full" src={user?.photoURL || userr} alt="User Profile" />
                             </div>
                             <h2 className="text-[10px] md:text-lg ml-2">{user.displayName}</h2>
                         </div>

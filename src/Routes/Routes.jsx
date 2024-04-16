@@ -8,6 +8,7 @@ import PrivateRoute from "./PrivateRoute";
 import AboutUs from "../Pages/AboutUs";
 import ContactUS from "../Pages/ContactUS";
 import GallerySec from "../Pages/GallerySec";
+import UpdateRoute from "../Pages/UpdateRoute";
 
 
 
@@ -47,6 +48,10 @@ const routes = createBrowserRouter([
             {
                 path:'/gallery',
                 element:<PrivateRoute><GallerySec></GallerySec></PrivateRoute>
+            },
+            {
+                path:'/profile',
+                element:<PrivateRoute><UpdateRoute></UpdateRoute></PrivateRoute>
             }
         ]
     }

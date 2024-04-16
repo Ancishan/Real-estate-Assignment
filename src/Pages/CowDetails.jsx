@@ -5,7 +5,7 @@ const CowDetails = ({ acow }) => {
 
     return (
         <div>
-            <div className="card mt-4 bg-base-100 shadow-xl " data-aos="flip-left" data-aos-duration="3000" data-aos-delay="500">
+            <div className="card mt-4 bg-base-100 shadow-xl " data-aos="flip-left" data-aos-duration="3000" data-aos-delay="550">
                 <h2 className="card-title pb-4">{estate_title}</h2>
                 <img className=" h-48 md:h-96 rounded-lg" src={image} alt="Shoes" />
                 <div className="card-body">
