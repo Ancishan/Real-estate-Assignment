@@ -72,7 +72,7 @@ const Navbar = () => {
                 {user ? (
                     <>
                         <button onClick={handleLogOut} className="btn">Sign Out</button>
-                        <div className="pl-5 pr-5 md:flex items-center">
+                        <div className="pl-5 pr-2 md:pr-5 md:flex items-center">
                             <div 
                                 className="pl-3" 
                                 onMouseEnter={handleMouseEnter} 
