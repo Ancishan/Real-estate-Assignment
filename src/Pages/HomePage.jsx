@@ -10,6 +10,7 @@ import cow22 from '../assets/cow12.jpg'
 import cow23 from '../assets/cow14.jpg'
 import cow24 from '../assets/cow15.jpg'
 import Customer from "./Customer";
+import ContactUS from "./ContactUS";
 const HomePage = () => {
     useEffect(() => {
         AOS.init();
@@ -59,6 +60,9 @@ const HomePage = () => {
 
             </div>
             <Customer></Customer>
+            <div>
+                <ContactUS></ContactUS>
+            </div>
         </div>
     );
 };

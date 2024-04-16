@@ -10,4 +10,4 @@ The packages that i have installed in the project are:
 8.marquee: npm i react-fast-marquee
 
 and for live server deploy
-1.netlify and firebase host
+1.netlify and firebase host .Hosting URL: https://real-estate-assignment.web.app
