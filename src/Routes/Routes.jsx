@@ -9,6 +9,7 @@ import AboutUs from "../Pages/AboutUs";
 import ContactUS from "../Pages/ContactUS";
 import GallerySec from "../Pages/GallerySec";
 import UpdateRoute from "../Pages/UpdateRoute";
+import ErrorPage from "../Pages/ErrorPage";
 
 
 
@@ -16,7 +17,7 @@ const routes = createBrowserRouter([
     {
         path:'/',
         element:<Root></Root>,
-        
+        errorElement:<ErrorPage></ErrorPage> ,
         children: [
             {
                 path: '/',
