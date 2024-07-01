@@ -1,16 +1,18 @@
 ## Installed Packages
 
-1. **react-router-dom**: `npm install react-router-dom`
-2. **firebase**: `npm install firebase`
-3. **Tailwind CSS**: `npm install tailwindcss`
-4. **@daisyscript/core & @daisyscript/react**: `npm install @daisyscript/core @daisyscript/react`
-5. **React Icons**: `npm install react-icons`
-6. **react-intersection-observer**: `npm install react-intersection-observer`
-7. **aos**: `npm install aos`
-8. **react-fast-marquee**: `npm install react-fast-marquee`
+- **react-router-dom**: `npm install react-router-dom`
+- **firebase**: `npm install firebase`
+- **Tailwind CSS**: `npm install tailwindcss`
+- **@daisyscript/core & @daisyscript/react**: `npm install @daisyscript/core @daisyscript/react`
+- **React Icons**: `npm install react-icons`
+- **react-intersection-observer**: `npm install react-intersection-observer`
+- **aos**: `npm install aos`
+- **react-fast-marquee**: `npm install react-fast-marquee`
+
+project Goal: In my project, it is demonstrated with an agro farm. The farm authorities post the animals they have on the site for sale. Essentially, this is a site for purchasing animals from the farm.
 
 ## Live Server Deployment
 
 - **Netlify**
 - **Firebase Hosting**
-  - **Hosting URL**: [https://real-estate-assignment.web.app](https://real-estate-assignment.web.app)
+  - **Hosting URL**: https://real-estate-assignment.web.app
