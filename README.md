@@ -9,10 +9,14 @@
 - **aos**: `npm install aos`
 - **react-fast-marquee**: `npm install react-fast-marquee`
 
-project Goal: In my project, it is demonstrated with an agro farm. The farm authorities post the animals they have on the site for sale. Essentially, this is a site for purchasing animals from the farm.
+- **Project Goal: In my project, it is demonstrated with an agro farm. The farm authorities post the animals they have on the site for sale. Essentially, this is a site for purchasing animals from the farm.
 
-## Live Server Deployment
-
+- **Project Feature:
+- Farmers can post animals for sale.
+- Buyers can view and purchase the animals.
+- They can also contact the seller to make a purchase
+  
+- **Live Server Deployment
 - **Netlify**
 - **Firebase Hosting**
   - **Hosting URL**: https://real-estate-assignment.web.app
