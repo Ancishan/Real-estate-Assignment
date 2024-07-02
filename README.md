@@ -20,3 +20,6 @@
 - **Netlify**
 - **Firebase Hosting**
   - **Hosting URL**: https://real-estate-assignment.web.app
+- Running Local host:
+- npm Install
+- npm run dev
